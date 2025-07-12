@@ -1,0 +1,546 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICON ===============-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== GOOGLE FONTS ===============-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS RESET ===============-->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+
+    <!--=============== SWIPER JS ===============-->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Pranay Mittal</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo">Pranay</a>
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#certificates" class="nav-link">Certificates</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>                
+
+          </ul>
+          <div class="social-links">
+            <a href="" target="_blank" class="social-link">
+              <i class="ri-twitter-x-fill"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/pranaymittal00/" target="_blank" class="social-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+
+            <a href="https://github.com/PranayMittal00" target="_blank" class="social-link">
+              <i class="ri-github-fill"></i>
+            </a>
+          </div>
+
+          <div class="section-deco deco-left header-deco">
+            <img src="assets/img/shape-1.png" alt="" class="shape"/>
+          </div>
+        </div>
+        <div class="nav-buttons">
+          <div class="nav-settings" id="switcher-toggle">
+            <i class="ri-settings-3-line"></i>
+          </div>
+          <div class="nav-toggle" id="nav-toggle"></div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section " id="home">
+        <div class="home-container container">
+          <div class="home-content">
+            <h2 class="home-subtitle"> Hello, <span>My Name is</span></h2>
+            <h1 class="home-title"> <span>Pranay</span> Mittal </h1>
+            <h3 class="home-job">Computer Science Enginner</h3>
+
+            <div class="home-banner">
+              <div class="home-img-wrapper">
+                <img src="assets/img/profile.png" alt="" class="home-profile">
+              </div>
+
+              <div class="home-data home-data-one">
+                <span class="home-data-no">5</span>
+                <h3 class="home-data-title">Completed <span>Projects</span></h3>
+              </div>
+
+              <div class="home-data home-data-two">
+                <span class="home-data-no">12+</span>
+                <h3 class="home-data-title">Skills <span>Mastered</span></h3>
+              </div>
+
+              <img src="assets/img/shape-1.png" alt="" class="shape shape-1">
+              <img src="assets/img/shape-2.png" alt="" class="shape shape-2">
+              <img src="assets/img/shape-3.png" alt="" class="shape shape-3">
+            </div>
+
+            <p class="home-description">
+              I'm from Jaipur, India. I love solving real-world problems through code 
+              — combining clean, intuitive user interfaces with efficient backend logic. 
+              I'm always exploring new technologies and how they can be used to create smarter,
+               more impactful web experiences.
+            </p>
+
+            <div class="home-socials social-links">
+            <a href="" target="_blank" class="social-link">
+              <i class="ri-twitter-x-fill"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/pranaymittal00/" target="_blank" class="social-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+
+            <a href="https://github.com/PranayMittal00" target="_blank" class="social-link">
+              <i class="ri-github-fill"></i>
+            </a>
+            </div>
+
+            <div class="home-btns">
+              <a  download="" href="assets/pdf/PranayMittal_Resume.pdf" class="btn">
+                Download Resume
+              </a>
+              <a href="#skills" class="home-link">My Skills</a>
+            </div>
+          </div>
+
+          <div class="section-deco deco-left">
+            <img src="assets/img/shape-1.png" alt="" class="shape">
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="projects">
+          <h2 class="section-title" data-title="My Projects">What I Build</h2>
+
+          <div class="container">
+            <div class="swiper services-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide card card-1">
+                  <h4 class="services-subtitle">Music Platform</h4>
+                  <h3 class="services-title">Name</h3>
+                  <p class="services-description">This project involved creating a music streaming app using React and Node.js.</p>
+                  <a href="#" class="link">See Project <i class="ri-arrow-right-line link-icon"></i></a>
+                </div>
+
+                <div class="swiper-slide card card-1">
+                  <h4 class="services-subtitle">Work and Assets Management</h4>
+                  <h3 class="services-title">Name</h3>
+                  <p class="services-description">This project involved creating a web application for managing company assets using the MERN stack.</p>
+                  <a href="#" class="link">See Project <i class="ri-arrow-right-line link-icon"></i></a>
+                </div>
+
+                <div class="swiper-slide card card-1">
+                  <h4 class="services-subtitle">E-commerce Platform</h4>
+                  <h3 class="services-title">Name</h3>
+                  <p class="services-description">This project involved creating a full-stack e-commerce platform using React, Node.js, and MongoDB.</p>
+                  <a href="#" class="link">See Project <i class="ri-arrow-right-line link-icon"></i></a>
+                </div>
+                
+                <!-- <div class="swiper-slide card card-1">
+                  <h4 class="services-subtitle">E-commerce Platform</h4>
+                  <h3 class="services-title">Name</h3>
+                  <p class="services-description">This project involved creating a full-stack e-commerce platform using React, Node.js, and MongoDB.</p>
+                  <a href="#" class="link">See Project <i class="ri-arrow-right-line link-icon"></i></a>
+                </div>
+
+                <div class="swiper-slide card card-1">
+                  <h4 class="services-subtitle">E-commerce Platform</h4>
+                  <h3 class="services-title">Name</h3>
+                  <p class="services-description">This project involved creating a full-stack e-commerce platform using React, Node.js, and MongoDB.</p>
+                  <a href="#" class="link">See Project <i class="ri-arrow-right-line link-icon"></i></a>
+                </div> -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="section-deco deco-right">
+              <img src="assets/img/shape-1.png" alt="" class="shape">
+            </div>
+          </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title" data-title="My Skills">What I Know</h2>
+        <div class="skills-container container grid">
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">HTML</h3>
+            </div>
+              <p class="skills-description">Experienced in crafting well-structured, semantic, and accessible web pages using HTML5 with SEO best practices.</p>
+          </div>
+          
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">CSS</h3>
+            </div>
+            <p class="skills-description">Proficient in designing responsive, modern interfaces using CSS3, including Flexbox, Grid, transitions, and media queries.</p> 
+          </div>
+
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">JavaScript</h3>
+            </div>
+            <p class="skills-description">Skilled in writing clean, modular JavaScript code for DOM manipulation, event handling, and enhancing user interactivity.</p> 
+          </div>
+
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">React.js</h3>
+            </div>
+            <p class="skills-description">Experience building component-based UIs, managing state with hooks, and developing dynamic single-page applications using React.</p>           
+          </div>
+
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">Node.js & Express.js</h3>
+            </div>
+            <p class="skills-description">Proficient in building RESTful APIs, middleware, and server-side logic using Node.js with Express framework.</p>
+          </div>
+
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">MongoDB</h3>
+            </div>
+            <p class="skills-description">Hands-on experience in designing schemas, performing CRUD operations, and managing data using MongoDB and Mongoose.</p>
+          </div>
+
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">SQL</h3>
+            </div>
+            <p class="skills-description">Knowledgeable in relational database management, writing complex queries, joins, and optimizing data retrieval with SQL.</p>
+          </div>
+
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">Git & GitHub</h3>
+            </div>
+            <p class="skills-description">Familiar with version control concepts, branching strategies, and collaboration workflows using Git and GitHub.</p>
+          </div>
+
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">Netlify & Vercel</h3>
+            </div>
+            <p class="skills-description">Proficient in deploying and hosting projects using Netlify and Vercel with continuous integration setup.</p>
+          </div>
+
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">C++</h3>
+            </div>
+            <p class="skills-description">Strong understanding of OOP principles, data structures, and algorithm implementation using C++ and STL.</p>
+          </div>
+
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">Python</h3>
+            </div>
+            <p class="skills-description">Used Python as a general-purpose programming language for scripting, automation, and solving real-world problems efficiently.</p>
+          </div>
+
+          <div class="skills-item">
+            <div class="skills-header">
+              <h3 class="skill-name">Problem Solving & DSA</h3>
+            </div>
+            <p class="skills-description">Strong analytical skills with a focus on data structures and algorithms, capable of solving complex problems efficiently.</p>
+          </div>
+          
+          <div class="section-deco deco-left">
+            <img src="assets/img/shape-1.png" alt="" class="shape">
+          </div>
+        </div>
+      </section>
+      <!--=============== CERTIFICATE ===============-->
+      <section class="testimonials section" id="certificates" >
+        <h2 class="section-title" data-title="My Certificates"> What I Have Achieved</h2>
+
+        <div class="container">
+          <div class="swiper testimonials-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide card">
+                <div class="testimonial-item">
+                  <img src="assets/img/c1.jpg" alt="" class="testimonials-img">
+                  <h3 class="testimonial-name">Web Development</h3>
+                  <p class="testimonial-description">Completed a comprehensive course on web development, covering HTML, CSS, and JavaScript.</p>
+                  
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="testimonial-item">
+                  <img src="assets/img/c2.jpg" alt="" class="testimonials-img">
+                  <h3 class="testimonial-name">Data Science</h3>
+                  <p class="testimonial-description">Achieved a certificate in data science, focusing on Python, machine learning, and data analysis.</p>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="testimonial-item">
+                  <img src="assets/img/c3.jpg" alt="" class="testimonials-img">
+                  <h3 class="testimonial-name">SQL</h3>
+                  <p class="testimonial-description">Completed a course in SQL, focusing on database management, queries, and data manipulation.</p>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="testimonial-item">
+                  <img src="assets/img/c4.jpg" alt="" class="testimonials-img">
+                  <h3 class="testimonial-name">Deloitte</h3>
+                  <p class="testimonial-description">Completed a job simulation with Deloitte, gaining practical experience in technology and consulting.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="section-deco deco-right">
+            <img src="assets/img/shape-1.png" alt="" class="shape">
+          </div>
+        </div>
+      </section>
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title" data-title="Contact Me">Get in Touch</h2>
+        <div class="contact-container container grid">
+          <div class="contact-content">
+            <div class="contact-card">
+              <span class="contact-icon">
+                <i class="ri-map-2-line"></i>
+              </span>
+              <div>
+                <h3 class="contact-title">Address</h3>
+                <p class="contact-data">Jaipur, Rajasthan</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <span class="contact-icon">
+                <i class="ri-mail-line"></i>
+              </span>
+              <div>
+                <h3 class="contact-title">Email</h3>
+                <p class="contact-data">pranaymitta2004@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <span class="contact-icon">
+                <i class="ri-linkedin-line"></i>
+              </span>
+              <div>
+                <h3 class="contact-title">LinkedIn</h3>
+                <p class="contact-data">linkedin.com/in/pranaymittal00</p>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact-form grid" id="contact-form">
+            <div class="contact-form-group grid">
+              <div class="contact-form-div">
+                <label for="" class="contact-form-label">
+                  Your Full Name <b>*</b>
+                </label>
+                <input 
+                  type="text"
+                  name="name"
+                  class="contact-form-input" 
+                  id="contact-name" 
+                  placeholder="Enter your name"  
+                />
+              </div>
+              <div class="contact-form-div">
+                <label for="" class="contact-form-label">
+                  Your Email Address <b>*</b>
+                </label>
+                <input 
+                  type="email"
+                  name="email"
+                  class="contact-form-input" 
+                  id="contact-email" 
+                  placeholder="Enter your email" 
+                />
+              </div>
+            </div>
+            <div class="contact-form-div">
+              <label for="" class="contact-form-label">
+                Your Subject <b>*</b>
+              </label>
+              <input 
+                type="text"
+                name="subject"
+                class="contact-form-input" 
+                id="contact-subject" 
+                placeholder="Enter your subject" 
+              />
+            </div>
+            <div class="contact-form-div">
+              <label for="" class="contact-form-label">
+                Your Message <b>*</b>
+              </label>
+              <textarea
+                name="message"
+                id="contact-message" 
+                class="contact-form-input contact-form-area" 
+                placeholder="Write your message here..."
+              ></textarea>
+            </div>
+            <div class="contact-submit">
+              <button type="submit" class="btn">
+                Send Message
+              </button>
+            </div>
+
+            <p class="message" id="message"></p>
+          </form>
+          
+          <div class="section-deco deco-left">
+            <img src="assets/img/shape-1.png" alt="" class="shape">
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer-container container">
+        <div class="footer-socials social-links">
+            <a href="" target="_blank" class="social-link">
+              <i class="ri-twitter-x-fill"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/pranaymittal00/" target="_blank" class="social-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+
+            <a href="https://github.com/PranayMittal00" target="_blank" class="social-link">
+              <i class="ri-github-fill"></i>
+            </a>
+        </div>
+
+        <p class="footer-copyright">© 2023 <span>Mittal</span>. All rights reserved.</p>
+        
+        <p class="footer-copyright">Developed by <span>Pranay Mittal</span></p>
+      </div>
+    </footer>
+
+    <!--=============== STYLE SWITCHER ===============-->
+    <div class="style-switcher" id="style-switcher">
+      <h2 class="style-switcher-title">Style Switcher</h2>
+
+      <div class="style-switcher-item">
+        <h3 class="style-switcher-subtitle">Colors</h3>
+
+        <div class="style-switcher-colors">
+          <span class="style-switcher-color active-color" style="--hue: 165">
+            <i class="ri-check-line"></i>
+          </span>
+        
+          <span class="style-switcher-color" style="--hue: 260">
+            <i class="ri-check-line"></i>
+          </span>
+
+          <span class="style-switcher-color" style="--hue: 345">
+            <i class="ri-check-line"></i>
+          </span>
+
+          <span class="style-switcher-color" style="--hue: 65">
+            <i class="ri-check-line"></i>
+          </span>
+
+          <span class="style-switcher-color" style="--hue: 15">
+            <i class="ri-check-line"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="style-switcher-item">
+        <h3 class="style-switcher-subtitle">Theme</h3>
+
+        <div class="style-switcher-themes">
+          <div class="style-switcher-theme">
+            <input 
+            type="radio" 
+            class="style-switcher-input" 
+            name="body-theme"
+            value="light"
+            checked="true"
+            id="light-theme"
+            />
+            <label for="light-theme" class="style-switcher-label">Light</label>
+          </div>
+
+          <div class="style-switcher-theme">
+            <input 
+            type="radio" 
+            class="style-switcher-input" 
+            name="body-theme"
+            value="dark"
+            id="dark-theme"
+            />
+            <label for="dark-theme" class="style-switcher-label">Dark</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="style-switcher-close" id="switcher-close">
+        <i class="ri-close-line"></i>
+      </div>
+    </div>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
